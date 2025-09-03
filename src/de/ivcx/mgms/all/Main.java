@@ -72,7 +72,7 @@ public class Main extends JavaPlugin implements Listener {
         }
         
         
-        //gold block
+        //raw gold block
         if (block.getType() == Material.RAW_GOLD_BLOCK) {
         	ItemStack goldBlock = new ItemStack(Material.RAW_GOLD_BLOCK, 1);
         	blockLocation.getWorld().dropItemNaturally(blockLocation, goldBlock);
